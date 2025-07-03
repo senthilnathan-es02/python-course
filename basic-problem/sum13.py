@@ -1,9 +1,8 @@
-def vowels(letter):
-    vowel = "aeiouAEIOU"
-    count= 0
-    for letter in letter:
-        if letter in vowel:
+def vowels_count(word):
+    vowels = "aeiouAEIOU"
+    count =0
+    for char in word:
+        if char in vowels:
             count+=1
-
     print(count)
-vowels("senthilnathan")
+vowels_count("python learning")
